@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+a, p {
+    color: #707070;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1f1f1f;
+}
+
+h1 {
+    font-size: 41px; 
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+.buy-now {
+    border-radius: 9px;
+    background-color: #000000;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.carousel-indicators .active {
+    border-radius: 6px;
+    background-image: linear-gradient(142deg, #ff9c35 0%, #ffd019 100%);
+    width: 45px;
+}
+
+.carousel-indicators li {
+    width: 16px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #cecece;
+}
+
+.carousel-item {
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 7%;
+}
+
+#banner-image {
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 10%;
+}
+
+.see-all-btn {
+    font-size: 22px;
+    color: #ff9d00;
+}
+
+.card {
+    border: none;
+    border-radius: 21px;
+    filter: drop-shadow(0px 10px 17.5px rgba(0,0,0,0.05));
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(109, 109, 109, 0.12);
+}
+
+.card img {
+    width: 80%;
+    margin: auto;
+}
+
+.color-bar {
+    display: block;
+    margin: 0 auto;
+    width: 136px;
+    height: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(250deg, #ff9c35 0%, #ffd019 100%);
+}
+
+.cat {
+    border-radius: 5px 20px 5px;
+    filter: drop-shadow(0px 6px 37px rgba(109,109,109,0.15));
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.cat a {
+    text-decoration: none;
+}
+
+.cat:hover {
+    transform: translateY(-10px);
+}
+
+
+footer li a {
+    color: dimgray;
+}
+
+.contact-info img,
+.social-media img {
+    width: 16px;
+    height: 16px;
+}
+
+.contact-info img {
+    margin-right: 10px;
+}
+
+.social-media li a {
+    display: block;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.social-media li a:hover {
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+}
